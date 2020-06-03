@@ -1,0 +1,5 @@
+- First run file 'izvlacenje.sql' to create database, file is located in databse folder.
+- Admin email is: admin@gmail.com
+- Admin password is: admin
+- Is responsive for mobile phones.
+- Used programming languages: php,mysql,javascript,html and css.  

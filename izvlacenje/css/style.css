@@ -1,0 +1,526 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+}
+
+h1{font-weight: 700;cursor: default;}
+h2{font-weight: 700;cursor: default;}
+h3{font-weight: 700;cursor: default;}
+h4{font-weight: 700;cursor: default;}
+p{font-weight: 300;cursor: default;}
+a{font-weight: 700;cursor: pointer;}
+button{cursor: pointer;}
+
+/*Izged prvo pravljen za racunare(pocetak u 1920px width),
+	pa tek onda za mobilne telefone*/
+
+.background-card{
+	margin: 0 auto;
+	padding: 0px;
+	width: 1000px;
+	background-color: #FFF;
+}
+
+.title{
+	margin: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 2px #000;
+}
+
+.title h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+.price{
+	margin: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.price img{
+	margin: 0px;
+	padding: 0px;
+	width: 1000px;
+	height: 500px;
+	display: block;
+}
+
+.about{
+	margin: 0px;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: left;
+}
+
+.about h2{
+	margin: 0px;
+	padding: 0px;
+}
+
+.about-text{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.about-text p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.instagram-link{
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.instagram-link a{
+	margin: 0px;
+	padding: 0px;
+}
+
+.must{
+	margin: 0px;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: left;
+}
+
+.must h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+.must-text{
+	margin: 0px;
+	padding-bottom: 50px;
+	width: 100%;
+	text-align: left;
+}
+
+.must-text p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.live{
+	margin: 0px;
+	padding-bottom: 50px;
+	width: 100%;
+	text-align: left;
+}
+
+.live h4{
+	margin: 0px;
+	padding: 0px;
+}
+
+.form-head{
+	margin: 0px;
+	padding-bottom: 50px;
+	width: 100%;
+	text-align: center;
+}
+.form-head p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.form-content{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 100px;
+	width: 100%;
+}
+
+.ff1{
+	margin-left: 250px;
+	padding-bottom: 20px;
+	width: 500px;
+}
+
+.ff1 span{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	color: red;
+	width: 100%;
+	text-align: center;
+}
+
+.ff1 label{
+	float: left;
+	margin-left: 125px;
+	padding-bottom: 5px;
+	width: 250px;
+}
+
+.ff1 #username{
+	margin-left: 125px;
+	padding: 5px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.ff2 span{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	color: red;
+	width: 100%;
+	text-align: center;
+}
+
+.ff2{
+	float: left;
+	margin-left: 250px;
+	padding-bottom: 40px;
+	width: 500px;
+}
+
+.ff2 label{
+	float: left;
+	margin-left: 125px;
+	padding-bottom: 5px;
+	width: 250px;
+}
+
+.ff2 #email{
+	margin-left: 125px;
+	padding: 5px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.ff3{
+	float: left;
+	margin-left: 250px;
+	padding: 0px;
+	width: 500px;
+}
+
+.ff3 button{
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 125px;
+	width: 264px;
+	border-radius: 5px;
+}
+
+.footer{
+	float: left;
+	margin: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+	text-align: center;
+	background-color: gray;
+}
+
+.footer p{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*index responsive*/
+@media only screen and (max-width: 1024px){
+	.background-card{
+		width: 800px;
+	}
+	.price img{
+		width: 800px;
+		height: 400px;
+	}
+	.form-content .ff1,.ff2,.ff3{
+		margin-left: 150px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.background-card{
+		width: 600px;
+	}
+	.price img{
+		width: 600px;
+		height: 300px;
+	}
+	.form-content .ff1,.ff2,.ff3{
+		margin-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+	.background-card{
+		width: 300px;
+	}
+	.price img{
+		width: 300px;
+		height: 150px;
+	}
+	.form-content .ff1,.ff2,.ff3{
+		width: 300px;
+		margin-left: 0px;
+	}
+	.ff1 label{
+		margin-left: 17px;
+	}
+	.ff1 #username{
+		margin-left: 17px;
+	}
+	.ff2 label{
+		margin-left: 17px;
+	}
+	.ff2 #email{
+		margin-left: 17px;
+	}
+	.ff3 button{
+		margin-left: 17px;
+	}
+}
+
+/*------------------- Login -------------------*/
+.login-card{
+	margin: 0 auto;
+	margin-top: 250px;
+	padding: 0px;
+	width: 300px;
+	background-color: #FFF;
+}
+
+.login-card h1{
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.lc1{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.lc1 #errorEmail{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: red;
+	text-align: center;
+}
+
+.lc1 label{
+	float: left;
+	margin: 0px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	width: 250px;
+}
+
+.lc1 #email{
+	float: left;
+	margin: 0px;
+	margin-left: 20px;
+	padding: 5px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.lc2{
+	float: left;
+	margin: 0px;
+	margin-top: 20px;
+	padding: 0px;
+	width: 100%;
+}
+
+.lc2 #errorPassword{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: red;
+	text-align: center;
+}
+
+.lc2 label{
+	float: left;
+	margin: 0px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	width: 250px;
+}
+
+.lc2 #password{
+	float: left;
+	margin: 0px;
+	margin-left: 20px;
+	padding: 5px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.lc3{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.lc3 button{
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 265px;
+	border-radius: 5px;
+}
+
+/*Login responsive*/
+
+@media only screen and (max-width: 1024px){
+	.login-card{
+		margin-top: 220px;
+		margin-bottom: 220px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.login-card{
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+	.login-card{
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+}
+
+/*------------------- Admin -------------------*/
+.admin-card{
+	margin: 0 auto;
+	margin-top: 300px;
+	padding: 0px;
+	width: 300px;
+}
+
+.admin-card p{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.admin-card h4{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.admin-card #wb{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+
+.admin-submit{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.admin-submit button{
+	margin: 0px;
+	margin-top: 50px;
+	margin-left: 80px;
+	padding: 5px;
+	width: 130px;
+}
+
+.admin-card #we{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.admin-card #w-title{
+	padding-top: 20px;
+}
+
+.admin-card #w-username{
+	padding-top: 10px;
+}
+
+.admin-card #w-email{
+	padding-top: 10px;
+}
+
+.admin-card #w-date{
+	padding-top: 10px;
+}
+
+.logout{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.logout a{
+	margin: 0px;
+	padding: 0px;
+}
+
+.logout a button{
+	margin: 0px;
+	margin-top: 50px;
+	margin-left: 105px;
+	padding: 5px;
+	width: 80px;
+
+}
+
+/*Admin responsive*/
+
+@media only screen and (max-width: 1440px){
+	.admin-card{
+		margin-top: 250px;
+		//margin-bottom: 220px;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.admin-card{
+		margin-top: 220px;
+		margin-bottom: 220px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.admin-card{
+		margin-top: 120px;
+		margin-bottom: 120px;
+	}
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+	.admin-card{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+}
+
+
